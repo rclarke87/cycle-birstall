@@ -1,10 +1,10 @@
 {
   "name": "11ty-community",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000c\u0000y\u0000c\u0000l\u0000e\u0000-\u0000b\u0000i\u0000r\u0000s\u0000t\u0000a\u0000l\u0000l\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
     "url": "https://github.com/rclarke87/cycle-birstall/issues"
   },
   "homepage": "https://github.com/rclarke87/cycle-birstall#readme",
+  "description": "",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0"
   }
