@@ -1,8 +1,6 @@
 ---
-title: My first page
+title: Cycle Birstall
 layout: base.njk
 ---
-
-# Cycle Birstall
 
 Hello, we are a cycle group based in Birstall, Kirklees

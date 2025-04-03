@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cycle Birstall</title>
-  </head>
-  <body>
-    <header>
-      <h1>{{ title }}</h1>
-    </header>
+  {% include "components/head.njk" %}
+<body>
+  {% include "components/nav.njk" %}
+  <header>
+    <h1>{{ title }}</h1>
+  </header>
+  
     <main>
-      {{ content | safe }}
+    {% include "components/hero.njk" %}
+    {% include "components/about.njk" %}
+    {% include "components/events.njk" %}
+    {% include "components/footer.njk" %}
     </main>
-  </body>
+
+</body>
 </html>
